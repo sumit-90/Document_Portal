@@ -1,655 +1,658 @@
 # ============================================================
 # LangChain Ecosystem
 # ============================================================
-langchain==1.2.6
-langchain-aws==1.1.0
-langchain-chroma==1.1.0
-langchain-classic==1.0.1
-langchain-cohere==0.5.0
-langchain-community==0.4.1
-langchain-core==1.2.7
-langchain-docling==2.0.0
-langchain-experimental==0.4.1
-langchain-google-genai==4.2.0
-langchain-groq==1.1.1
-langchain-huggingface==1.2.0
-langchain-ollama==1.0.1
-langchain-openai==1.1.7
-langchain-qdrant==1.1.0
-langchain-tavily==0.2.17
-langchain-text-splitters==1.1.0
-langchain-unstructured==1.0.1
+langchain>=1.2.6
+langchain-aws>=1.1.0
+langchain-chroma>=1.1.0
+langchain-classic>=1.0.1
+langchain-cohere>=0.5.0
+langchain-community>=0.4.1
+langchain-core>=1.2.7
+langchain-docling>=2.0.0
+langchain-experimental>=0.4.1
+langchain-google-genai>=4.2.0
+langchain-groq>=1.1.1
+langchain-huggingface>=1.2.0
+langchain-ollama>=1.0.1
+langchain-openai>=1.1.7
+langchain-qdrant>=1.1.0
+langchain-tavily>=0.2.17
+langchain-text-splitters>=1.1.0
+langchain-unstructured>=1.0.1
 
 # ============================================================
 # LangGraph & LangSmith
 # ============================================================
-langgraph==1.0.6
-langgraph-checkpoint==4.0.0
-langgraph-prebuilt==1.0.6
-langgraph-sdk==0.3.3
-langsmith==0.6.4
+langgraph>=1.0.6
+langgraph-checkpoint>=4.0.0
+langgraph-prebuilt>=1.0.6
+langgraph-sdk>=0.3.3
+langsmith>=0.6.4
 
 # ============================================================
 # LlamaIndex Ecosystem
 # ============================================================
-llama-index==0.14.12
-llama-index-cli==0.5.3
-llama-index-core==0.14.12
-llama-index-embeddings-bedrock==0.7.3
-llama-index-embeddings-huggingface==0.6.1
-llama-index-embeddings-openai==0.5.1
-llama-index-indices-managed-llama-cloud==0.9.4
-llama-index-instrumentation==0.4.2
-llama-index-llms-anthropic==0.10.5
-llama-index-llms-bedrock-converse==0.12.4
-llama-index-llms-openai==0.6.13
-llama-index-postprocessor-cohere-rerank==0.5.1
-llama-index-readers-file==0.5.6
-llama-index-readers-llama-parse==0.5.1
-llama-index-readers-web==0.5.6
-llama-index-vector-stores-chroma==0.5.5
-llama-index-vector-stores-milvus==0.9.6
-llama-index-vector-stores-qdrant==0.9.1
-llama-index-workflows==2.12.2
-llama-cloud==0.1.35
-llama-cloud-services==0.6.54
-llama-parse==0.6.54
+llama-index>=0.14.12
+llama-index-cli>=0.5.3
+llama-index-core>=0.14.12
+llama-index-embeddings-bedrock>=0.7.3
+llama-index-embeddings-huggingface>=0.6.1
+llama-index-embeddings-openai>=0.5.1
+llama-index-indices-managed-llama-cloud>=0.9.4
+llama-index-instrumentation>=0.4.2
+llama-index-llms-anthropic>=0.10.5
+llama-index-llms-bedrock-converse>=0.12.4
+llama-index-llms-openai>=0.6.13
+llama-index-postprocessor-cohere-rerank>=0.5.1
+llama-index-readers-file>=0.5.6
+llama-index-readers-llama-parse>=0.5.1
+llama-index-readers-web>=0.5.6
+llama-index-vector-stores-chroma>=0.5.5
+llama-index-vector-stores-milvus>=0.9.6
+llama-index-vector-stores-qdrant>=0.9.1
+llama-index-workflows>=2.12.2
+llama-cloud>=0.1.35
+llama-cloud-services>=0.6.54
+llama-parse>=0.6.54
 
 # ============================================================
 # Vector Databases & Search
 # ============================================================
-chromadb==1.4.1
-faiss-cpu==1.13.2
-pinecone==8.0.0
-pinecone-plugin-assistant==3.0.1
-pinecone-plugin-interface==0.0.7
-pymilvus==2.6.6
-qdrant-client==1.16.2
-rank-bm25==0.2.2
+chromadb>=1.4.1
+faiss-cpu>=1.13.2
+pinecone>=8.0.0
+pinecone-plugin-assistant>=3.0.1
+pinecone-plugin-interface>=0.0.7
+pymilvus>=2.6.6
+qdrant-client>=1.16.2
+rank-bm25>=0.2.2
 
 # ============================================================
 # LLM Providers & APIs
 # ============================================================
-anthropic==0.76.0
-cohere==5.20.1
-google-ai-generativelanguage==0.6.15
-google-genai==1.59.0
-google-generativeai==0.8.6
-groq==0.37.1
-litellm==1.80.17
-ollama==0.6.1
-openai==2.15.0
+anthropic>=0.76.0
+cohere>=5.20.1
+google-ai-generativelanguage>=0.6.15
+google-genai>=1.59.0
+google-generativeai>=0.8.6
+groq>=0.37.1
+litellm>=1.80.17
+ollama>=0.6.1
+openai>=2.15.0
 
 # ============================================================
 # Embeddings & Transformers
 # ============================================================
-sentence-transformers==5.2.0
-transformers==4.57.6
-tokenizers==0.22.2
-tiktoken==0.12.0
-huggingface-hub==0.36.0
-accelerate==1.12.0
-safetensors==0.7.0
+sentence-transformers>=5.2.0
+transformers>=4.57.6
+tokenizers>=0.22.2
+tiktoken>=0.12.0
+huggingface-hub>=0.36.0
+accelerate>=1.12.0
+safetensors>=0.7.0
 
 # ============================================================
 # ML & Deep Learning
 # ============================================================
-torch==2.9.1
-torchvision==0.24.1
-timm==1.0.24
-scikit-learn==1.8.0
-scikit-image==0.26.0
-scikit-network==0.33.5
-scipy==1.17.0
-numpy==2.4.1
-onnx==1.20.1
-onnxruntime==1.23.2
-ml-dtypes==0.5.4
+torch>=2.9.1
+torchvision>=0.24.1
+timm>=1.0.24
+scikit-learn>=1.8.0
+scikit-image>=0.26.0
+scikit-network>=0.33.5
+scipy>=1.17.0
+numpy==2.3.5
+onnx>=1.20.1
+onnxruntime>=1.23.2
+ml-dtypes>=0.5.4
+effdet>=0.4.1
 
 # ============================================================
 # Document Processing & Parsing
 # ============================================================
-docling==2.55.1
-docling-core==2.59.0
-docling-ibm-models==3.10.3
-docling-parse==4.7.3
-unstructured==0.18.15
-unstructured-client==0.42.8
-unstructured-inference==1.1.1
-unstructured-pytesseract==0.3.15
-python-docx==1.2.0
-python-pptx==1.0.2
-docx2txt==0.9
-pypdf==6.6.0
-pypdfium2==4.30.0
-pdfminer-six==20260107
-pdf2image==1.17.0
-pymupdf==1.26.7
-pikepdf==10.2.0
-openpyxl==3.1.5
-xlrd==2.0.2
-xlsxwriter==3.2.9
-striprtf==0.0.26
-msoffcrypto-tool==5.4.2
-python-oxmsg==0.0.2
-olefile==0.47
+docling>=2.55.1
+unstructured>=0.18.15
+python-docx>=1.2.0
+python-pptx>=1.0.2
+docx2txt>=0.9
+pypdf>=6.6.0
+pypdfium2>=4.30.0
+pdfminer-six>=20260107
+pdf2image>=1.17.0
+pymupdf>=1.26.7
+pikepdf>=10.2.0
+openpyxl>=3.1.5
+xlrd>=2.0.2
+xlsxwriter>=3.2.9
+striprtf>=0.0.26
+msoffcrypto-tool>=5.4.2
+python-oxmsg>=0.0.2
+olefile>=0.47
 
 # ============================================================
 # OCR & Image Processing
 # ============================================================
-easyocr==1.7.2
-opencv-python==4.11.0.86
-opencv-python-headless==4.11.0.86
-pillow==11.3.0
-pi-heif==1.1.1
-pycocotools==2.0.11
-imageio==2.37.2
-tifffile==2026.1.14
+easyocr>=1.7.2
+rapidocr>=3.6.0
+opencv-python>=4.11.0.86
+opencv-python-headless>=4.11.0.86
+pillow>=11.3.0
+pi-heif>=1.1.1
+pycocotools>=2.0.11
+imageio>=2.37.2
+tifffile>=2026.1.14
+pyclipper>=1.4.0
 
 # ============================================================
 # Web Scraping & Crawling
 # ============================================================
-scrapy==2.14.1
-beautifulsoup4==4.14.3
-selenium==4.40.0
-playwright==1.57.0
-newspaper3k==0.2.8
-firecrawl-py==4.13.0
-spider-client==0.0.27
-lxml==6.0.2
-lxml-html-clean==0.4.3
-html2text==2024.2.26
-html5lib==1.1
-markdownify==1.2.2
-feedfinder2==0.0.4
-feedparser==6.0.12
-parsel==1.10.0
-cssselect==1.3.0
-w3lib==2.3.1
-protego==0.5.0
-itemadapter==0.13.1
-itemloaders==1.3.2
-queuelib==1.8.0
-fake-useragent==2.2.0
-tldextract==5.3.1
+scrapy>=2.14.1
+beautifulsoup4>=4.14.3
+selenium>=4.40.0
+playwright>=1.57.0
+newspaper3k>=0.2.8
+firecrawl-py>=4.13.0
+spider-client>=0.0.27
+lxml>=6.0.2
+lxml-html-clean>=0.4.3
+html2text>=2024.2.26
+html5lib>=1.1
+markdownify>=1.2.2
+feedfinder2>=0.0.4
+feedparser>=6.0.12
+parsel>=1.10.0
+cssselect>=1.3.0
+w3lib>=2.3.1
+protego>=0.5.0
+itemadapter>=0.13.1
+itemloaders>=1.3.2
+queuelib>=1.8.0
+fake-useragent>=2.2.0
+tldextract>=5.3.1
+chromedriver-autoinstaller>=0.6.4
 
 # ============================================================
 # Web Search
 # ============================================================
-ddgs==9.10.0
-duckduckgo-search==8.1.1
-wikipedia==1.4.0
-youtube-search==2.2.0
+ddgs>=9.10.0
+duckduckgo-search>=8.1.1
+wikipedia>=1.4.0
+youtube-search>=2.2.0
 
 # ============================================================
 # API & Web Frameworks
 # ============================================================
-fastapi==0.128.0
-starlette==0.50.0
-uvicorn==0.40.0
-streamlit==1.54.0
-httpx==0.28.1
-httpx-sse==0.4.3
-httpcore==1.0.9
-requests==2.32.5
-requests-file==3.0.1
-requests-oauthlib==2.0.0
-requests-toolbelt==1.0.0
-urllib3==2.6.3
-aiohttp==3.13.3
-websocket-client==1.9.0
-websockets==15.0.1
-h11==0.16.0
-h2==4.3.0
-hpack==4.1.0
-hyperframe==6.1.0
-httptools==0.7.1
-httplib2==0.31.1
-curl-cffi==0.13.0
+fastapi>=0.128.0
+starlette>=0.50.0
+uvicorn>=0.40.0
+streamlit>=1.54.0
+httpx>=0.28.1
+httpx-sse>=0.4.3
+httpcore>=1.0.9
+requests>=2.32.5
+requests-file>=3.0.1
+requests-oauthlib>=2.0.0
+requests-toolbelt>=1.0.0
+aiohttp>=3.13.3
+websocket-client>=1.9.0
+websockets>=15.0.1
+h11>=0.16.0
+h2>=4.3.0
+httptools>=0.7.1
+httplib2>=0.31.1
+curl-cffi>=0.13.0
+python-multipart>=0.0.21
 
 # ============================================================
-# AWS & Cloud
+# AWS & Cloud (awscli excluded - install separately via pipx)
 # ============================================================
-boto3==1.40.61
-boto3-stubs==1.42.30
-botocore==1.42.46
-botocore-stubs==1.42.30
-aioboto3==15.5.0
-aiobotocore==2.25.1
-awscli==1.44.36
-s3transfer==0.16.0
-mypy-boto3-bedrock-runtime==1.42.3
-types-awscrt==0.31.1
-types-s3transfer==0.16.0
+boto3
+aioboto3>=13.1.1
 
 # ============================================================
 # Google Cloud & APIs
 # ============================================================
-google-api-core==2.29.0
-google-api-python-client==2.188.0
-google-auth==2.47.0
-google-auth-httplib2==0.3.0
-google-cloud-vision==3.12.0
-googleapis-common-protos==1.72.0
+google-api-core>=2.29.0
+google-api-python-client>=2.188.0
+google-auth>=2.47.0
+google-auth-httplib2>=0.3.0
+google-cloud-vision>=3.12.0
+googleapis-common-protos>=1.72.0
 
 # ============================================================
 # Database & ORM
 # ============================================================
-sqlalchemy==2.0.45
-sqlparse==0.5.5
-psycopg2-binary==2.9.11
-aiosqlite==0.22.1
-peewee==3.19.0
-vanna==2.0.1
+sqlalchemy>=2.0.45
+sqlparse>=0.5.5
+psycopg2-binary>=2.9.11
+aiosqlite>=0.22.1
+peewee>=3.19.0
+vanna>=2.0.1
 
 # ============================================================
 # Data Processing & Analysis
 # ============================================================
-pandas==2.3.3
-pyarrow==22.0.0
-datasets==4.5.0
-dill==0.4.0
-multiprocess==0.70.18
-fastavro==1.12.1
-narwhals==2.15.0
-db-dtypes==1.5.0
+pandas>=2.3.3
+pyarrow>=22.0.0
+datasets>=4.5.0
+fastavro>=1.12.1
+db-dtypes>=1.5.0
 
 # ============================================================
 # Visualization
 # ============================================================
-matplotlib==3.10.8
-seaborn==0.13.2
-plotly==6.5.2
-altair==6.0.0
-pydeck==0.9.1
-contourpy==1.3.3
-cycler==0.12.1
-fonttools==4.61.1
-kiwisolver==1.4.9
+matplotlib>=3.10.8
+seaborn>=0.13.2
+plotly>=6.5.2
+altair>=6.0.0
+pydeck>=0.9.1
 
 # ============================================================
 # NLP & Text Processing
 # ============================================================
-nltk==3.9.2
-langdetect==1.0.9
-emoji==2.15.0
-jieba3k==0.35.1
-python-bidi==0.6.7
-python-iso639==2025.11.16
-regex==2026.1.15
-rapidfuzz==3.14.3
-semchunk==2.2.2
-tinysegmenter==0.3
-sgmllib3k==1.0.0
+nltk>=3.9.2
+langdetect>=1.0.9
+emoji>=2.15.0
+jieba3k>=0.35.1
+python-bidi>=0.6.7
+python-iso639>=2025.11.16
+regex>=2026.1.15
+rapidfuzz>=3.14.3
+semchunk>=2.2.2
+tinysegmenter>=0.3
+sgmllib3k>=1.0.0
 
 # ============================================================
 # Evaluation & Observability
 # ============================================================
-deepeval==3.8.0
-ragas==0.3.7
-opik==1.9.87
-opentelemetry-api==1.39.1
-opentelemetry-exporter-otlp-proto-common==1.39.1
-opentelemetry-exporter-otlp-proto-grpc==1.39.1
-opentelemetry-proto==1.39.1
-opentelemetry-sdk==1.39.1
-opentelemetry-semantic-conventions==0.60b1
-sentry-sdk==2.49.0
-posthog==5.4.0
-prometheus-client==0.24.1
+deepeval>=3.8.0
+ragas>=0.3.7
+opik>=1.9.87
+opentelemetry-api>=1.39.1
+opentelemetry-exporter-otlp-proto-common>=1.39.1
+opentelemetry-exporter-otlp-proto-grpc>=1.39.1
+opentelemetry-proto>=1.39.1
+opentelemetry-sdk>=1.39.1
+opentelemetry-semantic-conventions>=0.60b1
+sentry-sdk>=2.49.0
+posthog>=5.4.0
+prometheus-client>=0.24.1
 
 # ============================================================
 # Pydantic & Data Validation
 # ============================================================
-pydantic==2.12.5
-pydantic-core==2.41.5
-pydantic-settings==2.12.0
-marshmallow==3.26.2
-dataclasses-json==0.6.7
-email-validator==2.3.0
-instructor==1.14.4
+pydantic>=2.12.5
+pydantic-core>=2.41.5
+pydantic-settings>=2.12.0
+marshmallow>=3.26.2
+dataclasses-json>=0.6.7
+email-validator>=2.3.0
+instructor>=1.14.4
 
 # ============================================================
 # Serialization & JSON
 # ============================================================
-orjson==3.11.5
-ormsgpack==1.12.1
-jiter==0.11.1
-dirtyjson==1.0.8
-json5==0.13.0
-jsonlines==4.0.0
-jsonpatch==1.33
-jsonpointer==3.0.0
-jsonref==1.1.0
-jsonschema==4.26.0
-jsonschema-specifications==2025.9.1
+orjson>=3.11.5
+ormsgpack>=1.12.1
+dirtyjson>=1.0.8
+json5>=0.13.0
+jsonlines>=4.0.0
+jsonpatch>=1.33
+jsonpointer>=3.0.0
+jsonref>=1.1.0
+jsonschema>=4.26.0
+jsonschema-specifications>=2025.9.1
 
 # ============================================================
 # gRPC & Protobuf
 # ============================================================
-grpcio==1.76.0
-grpcio-status==1.71.2
-proto-plus==1.27.0
-protobuf==5.29.5
-protoc-gen-openapiv2==0.0.1
-
-# ============================================================
-# Async & Concurrency
-# ============================================================
-anyio==4.12.1
-async-generator==1.10
-async-lru==2.0.5
-aiofiles==25.1.0
-aiohappyeyeballs==2.6.1
-aioitertools==0.13.0
-aiosignal==1.4.0
-frozenlist==1.8.0
-multidict==6.7.0
-yarl==1.22.0
-propcache==0.4.1
-trio==0.32.0
-trio-typing==0.10.0
-trio-websocket==0.12.2
-sniffio==1.3.1
-outcome==1.3.0.post0
-nest-asyncio==1.6.0
-greenlet==3.3.0
+grpcio>=1.76.0
+grpcio-status>=1.71.2
+proto-plus>=1.27.0
+protobuf>=5.29.5
+protoc-gen-openapiv2>=0.0.1
 
 # ============================================================
 # Jupyter & Notebooks
 # ============================================================
-ipykernel==7.1.0
-ipython==9.9.0
-ipython-pygments-lexers==1.1.1
-jupyter-client==8.8.0
-jupyter-core==5.9.1
-jupyter-events==0.12.0
-jupyter-lsp==2.3.0
-jupyter-server==2.17.0
-jupyter-server-terminals==0.5.4
-jupyterlab==4.5.2
-jupyterlab-pygments==0.3.0
-jupyterlab-server==2.28.0
-notebook-shim==0.2.4
-nbclient==0.10.4
-nbconvert==7.16.6
-nbformat==5.10.4
+ipykernel>=7.1.0
+ipython>=9.9.0
+jupyter-client>=8.8.0
+jupyter-core>=5.9.1
+jupyter-events>=0.12.0
+jupyter-lsp>=2.3.0
+jupyter-server>=2.17.0
+jupyter-server-terminals>=0.5.4
+jupyterlab>=4.5.2
+jupyterlab-pygments>=0.3.0
+jupyterlab-server>=2.28.0
+notebook-shim>=0.2.4
+nbclient>=0.10.4
+nbconvert>=7.16.6
+nbformat>=5.10.4
 
 # ============================================================
 # Testing
 # ============================================================
-pytest==9.0.2
-pytest-asyncio==1.3.0
-pytest-repeat==0.9.4
-pytest-rerunfailures==16.1
-pytest-xdist==3.8.0
-execnet==2.1.2
-faker==40.1.2
-polyfactory==3.2.0
+pytest>=9.0.2
+pytest-asyncio>=1.3.0
+pytest-repeat>=0.9.4
+pytest-rerunfailures>=16.1
+pytest-xdist>=3.8.0
+faker>=40.1.2
+polyfactory>=3.2.0
 
 # ============================================================
 # Code Quality & Linting
 # ============================================================
-black==25.12.0
-ruff==0.14.13
-flake8==7.3.0
-pycodestyle==2.14.0
-pyflakes==3.4.0
-mccabe==0.7.0
-pre-commit==4.5.1
-mypy-extensions==1.1.0
+black>=25.12.0
+ruff>=0.14.13
+flake8>=7.3.0
+pycodestyle>=2.14.0
+pyflakes>=3.4.0
+mccabe>=0.7.0
+pre-commit>=4.5.1
+mypy-extensions>=1.1.0
 
 # ============================================================
 # Kubernetes & DevOps
 # ============================================================
-kubernetes==35.0.0
-durationpy==0.10
+kubernetes>=35.0.0
+durationpy>=0.10
 
 # ============================================================
 # Cryptography & Security
 # ============================================================
-cryptography==46.0.3
-pyopenssl==25.3.0
-bcrypt==5.0.0
-rsa==4.7.2
-certifi==2026.1.4
-pyasn1==0.6.2
-pyasn1-modules==0.4.2
-service-identity==24.2.0
+cryptography>=46.0.3
+pyopenssl>=25.3.0
+bcrypt>=5.0.0
+rsa>=4.7.2
+certifi>=2026.1.4
+pyasn1>=0.6.2
+pyasn1-modules>=0.4.2
+service-identity>=24.2.0
 
 # ============================================================
 # Template & Markup
 # ============================================================
-jinja2==3.1.6
-markupsafe==3.0.3
-markdown==3.10
-markdown-it-py==4.0.0
-marko==2.2.2
-latex2mathml==3.78.1
-pylatexenc==2.10
-mistune==3.2.0
+jinja2>=3.1.6
+markupsafe>=3.0.3
+markdown>=3.10
+markdown-it-py>=4.0.0
+marko>=2.2.2
+latex2mathml>=3.78.1
+pylatexenc>=2.10
+mistune>=3.2.0
 
 # ============================================================
 # CLI & Terminal
 # ============================================================
-click==8.3.1
-typer==0.19.2
-rich==14.2.0
-pygments==2.19.2
-prompt-toolkit==3.0.52
-colorama==0.4.6
-coloredlogs==15.0.1
-pyfiglet==1.0.4
-shellingham==1.5.4
-tabulate==0.9.0
+click>=8.2.1
+typer>=0.19.2
+rich>=14.2.0
+pygments>=2.19.2
+prompt-toolkit>=3.0.52
+colorama>=0.4.6
+coloredlogs>=15.0.1
+colorlog>=6.10.1
+pyfiglet>=1.0.4
+shellingham>=1.5.4
+tabulate>=0.9.0
 
 # ============================================================
 # Configuration & Environment
 # ============================================================
-python-dotenv==1.2.1
-pyyaml==6.0.3
-omegaconf==2.3.0
-toml==0.10.2
-iniconfig==2.3.0
+python-dotenv>=1.2.1
+pyyaml>=6.0.3
+omegaconf>=2.3.0
+toml>=0.10.2
+iniconfig>=2.3.0
 
 # ============================================================
 # File & System Utilities
 # ============================================================
-filelock==3.20.3
-filetype==1.2.0
-python-magic==0.4.27
-watchdog==6.0.0
-watchfiles==1.1.1
-send2trash==2.1.0
-platformdirs==4.5.1
-appdirs==1.4.4
-pathspec==1.0.3
-diskcache==5.6.3
-portalocker==3.2.0
-cachetools==6.2.6
-psutil==7.2.1
-lz4==4.4.5
-zstandard==0.25.0
-brotli==1.2.0
-mmh3==5.2.0
-xxhash==3.6.0
+filelock>=3.20.3
+filetype>=1.2.0
+python-magic>=0.4.27
+watchdog>=6.0.0
+watchfiles>=1.1.1
+send2trash>=2.1.0
+platformdirs>=4.5.1
+appdirs>=1.4.4
+pathspec>=1.0.3
+diskcache>=5.6.3
+portalocker>=3.2.0
+cachetools>=6.2.6
+psutil>=7.2.1
+lz4>=4.4.5
+zstandard>=0.25.0
+brotli>=1.2.0
+mmh3>=5.2.0
+xxhash>=3.6.0
 
 # ============================================================
 # Networking & Proxy
 # ============================================================
-pysocks==1.7.1
-socksio==1.0.0
-dnspython==2.8.0
-primp==0.15.0
-idna==3.11
+pysocks>=1.7.1
+socksio>=1.0.0
+dnspython>=2.8.0
+primp>=0.15.0
+idna>=3.11
+urllib3>=2.6.3
 
 # ============================================================
 # Date & Time
 # ============================================================
-python-dateutil==2.9.0.post0
-arrow==1.4.0
-pytz==2025.2
-tzdata==2025.3
-isoduration==20.11.0
+python-dateutil>=2.9.0.post0
+arrow>=1.4.0
+pytz>=2025.2
+tzdata>=2025.3
+isoduration>=20.11.0
 
 # ============================================================
 # Parsing & Code Analysis
 # ============================================================
-tree-sitter==0.25.2
-tree-sitter-c==0.24.1
-tree-sitter-c-sharp==0.23.1
-tree-sitter-embedded-template==0.25.0
-tree-sitter-javascript==0.25.0
-tree-sitter-language-pack==0.13.0
-tree-sitter-python==0.25.0
-tree-sitter-typescript==0.23.2
-tree-sitter-yaml==0.7.2
-lark==1.3.1
-antlr4-python3-runtime==4.9.3
-pyparsing==3.3.1
+tree-sitter>=0.25.2
+tree-sitter-c>=0.24.1
+tree-sitter-c-sharp>=0.23.1
+tree-sitter-embedded-template>=0.25.0
+tree-sitter-javascript>=0.25.0
+tree-sitter-language-pack>=0.13.0
+tree-sitter-python>=0.25.0
+tree-sitter-typescript>=0.23.2
+tree-sitter-yaml>=0.7.2
+lark>=1.3.1
+antlr4-python3-runtime>=4.9.3
+pyparsing>=3.3.1
 
 # ============================================================
 # Finance
 # ============================================================
-yfinance==1.1.0
-multitasking==0.0.12
+yfinance>=1.1.0
+multitasking>=0.0.12
 
 # ============================================================
 # Geospatial
 # ============================================================
-shapely==2.1.2
-rtree==1.4.1
+shapely>=2.1.2
+rtree>=1.4.1
 
 # ============================================================
 # Typing & Type Stubs
 # ============================================================
-typing-extensions==4.15.0
-typing-inspect==0.9.0
-typing-inspection==0.4.2
-annotated-types==0.7.0
-annotated-doc==0.0.4
-types-certifi==2021.10.8.3
-types-pyyaml==6.0.12.20250915
-types-requests==2.31.0.6
-types-urllib3==1.26.25.14
+typing-extensions>=4.15.0
+typing-inspect>=0.9.0
+typing-inspection>=0.4.2
+annotated-types>=0.7.0
+annotated-doc>=0.0.4
+types-certifi>=2021.10.8.3
+types-pyyaml>=6.0.12.20250915
+types-requests>=2.31.0.6
+types-s3transfer>=0.16.0
+types-urllib3>=1.26.25.14
+types-awscrt>=0.31.1
+boto3-stubs>=1.42.30
+botocore-stubs>=1.42.30
+mypy-boto3-bedrock-runtime>=1.42.3
 
 # ============================================================
 # Build & Packaging
 # ============================================================
-setuptools==80.9.0
-wheel==0.45.1
-build==1.4.0
-pyproject-hooks==1.2.0
-packaging==24.2
-importlib-metadata==8.7.1
-importlib-resources==6.5.2
-zipp==3.23.0
+setuptools>=80.9.0
+wheel>=0.45.1
+build>=1.4.0
+pyproject-hooks>=1.2.0
+packaging>=24.2
+importlib-metadata>=8.7.1
+importlib-resources>=6.5.2
+zipp>=3.23.0
 
 # ============================================================
 # Twisted Framework
 # ============================================================
-twisted==25.5.0
-automat==25.4.16
-constantly==23.10.4
-hyperlink==21.0.0
-incremental==24.11.0
-zope-interface==8.2
+twisted>=25.5.0
+automat>=25.4.16
+constantly>=23.10.4
+hyperlink>=21.0.0
+incremental>=24.11.0
+zope-interface>=8.2
+
+# ============================================================
+# Async & Concurrency
+# ============================================================
+anyio>=4.12.1
+async-generator>=1.10
+async-lru>=2.0.5
+aiofiles>=25.1.0
+aiohappyeyeballs>=2.6.1
+aioitertools>=0.13.0
+aiosignal>=1.4.0
+frozenlist>=1.8.0
+multidict>=6.7.0
+yarl>=1.22.0
+propcache>=0.4.1
+trio>=0.32.0
+trio-typing>=0.10.0
+trio-websocket>=0.12.2
+sniffio>=1.3.1
+outcome>=1.3.0.post0
+nest-asyncio>=1.6.0
+greenlet>=3.3.0
+
+# ============================================================
+# New additions (from updated env)
+# ============================================================
+griffecli>=2.0.0
+griffelib>=2.0.0
+rapidocr>=3.6.0
 
 # ============================================================
 # Miscellaneous Utilities
 # ============================================================
-attrs==25.4.0
-backoff==2.2.1
-banks==2.2.0
-bleach==6.3.0
-blinker==1.9.0
-cffi==2.0.0
-cfgv==3.5.0
-charset-normalizer==3.4.4
-chromedriver-autoinstaller==0.6.4
-comm==0.2.3
-debugpy==1.8.19
-decorator==5.2.1
-defusedxml==0.7.1
-deprecated==1.2.18
-distlib==0.4.0
-distro==1.9.0
-docstring-parser==0.17.0
-docutils==0.19
-effdet==0.4.1
-et-xmlfile==2.0.0
-executing==2.2.1
-fastjsonschema==2.21.2
-fastuuid==0.14.0
-flatbuffers==25.12.19
-fqdn==1.5.1
-frozendict==2.4.7
-fsspec==2025.10.0
-gitdb==4.0.12
-gitpython==3.1.46
-griffe==1.15.0
-humanfriendly==10.0
-identify==2.6.16
-jedi==0.19.2
-jmespath==1.0.1
-joblib==1.5.3
-jq==1.11.0
-matplotlib-inline==0.2.1
-mdurl==0.1.2
-mpire==2.10.2
-mpmath==1.3.0
-networkx==3.6.1
-ninja==1.13.0
-nodeenv==1.10.0
-oauthlib==3.3.1
-overrides==7.7.0
-oxylabs==2.0.0
-pandocfilters==1.5.1
-parso==0.8.5
-pluggy==1.6.0
-pure-eval==0.2.3
-pybase64==1.4.3
-pyclipper==1.4.0
-pycparser==2.23
-pydispatcher==2.0.7
-pyee==13.0.0
-pypandoc==1.16.2
-pypika==0.50.0
-pyreadline3==3.5.4
-python-json-logger==4.0.0
-python-multipart==0.0.21
-pytokens==0.3.0
-pywin32==311
-pywinpty==3.0.2
-pyzmq==27.1.0
-referencing==0.37.0
-rfc3339-validator==0.1.4
-rfc3986-validator==0.1.1
-rfc3987-syntax==1.1.0
-rpds-py==0.30.0
-six==1.17.0
-smmap==5.0.2
-sortedcontainers==2.4.0
-soupsieve==2.8.1
-stack-data==0.6.3
-sympy==1.14.0
-tenacity==9.1.2
-terminado==0.18.1
-threadpoolctl==3.6.0
-tinycss2==1.4.0
-tornado==6.5.4
-tqdm==4.67.1
-traitlets==5.14.3
-ty==0.0.12
-uri-template==1.3.0
-uritemplate==4.2.0
-uuid-utils==0.13.0
-uuid6==2025.0.1
-vectorize-client==0.4.0
-virtualenv==20.36.1
-wcwidth==0.2.14
-webcolors==25.10.0
-webencodings==0.5.1
-wsproto==1.3.2
-lazy-loader==0.4
-asttokens==3.0.1
+attrs>=25.4.0
+backoff>=2.2.1
+banks>=2.2.0
+bleach>=6.3.0
+blinker>=1.9.0
+cffi>=2.0.0
+cfgv>=3.5.0
+charset-normalizer>=3.4.4
+babel>=2.17.0
+comm>=0.2.3
+contourpy>=1.3.3
+cycler>=0.12.1
+debugpy>=1.8.19
+decorator>=5.2.1
+defusedxml>=0.7.1
+deprecated>=1.2.18
+dill>=0.4.0
+distlib>=0.4.0
+distro>=1.9.0
+docstring-parser>=0.17.0
+docutils>=0.19
+et-xmlfile>=2.0.0
+execnet>=2.1.2
+executing>=2.2.1
+fastjsonschema>=2.21.2
+fastuuid>=0.14.0
+flatbuffers>=25.12.19
+fonttools>=4.61.1
+fqdn>=1.5.1
+frozendict>=2.4.7
+fsspec>=2025.10.0
+gitdb>=4.0.12
+gitpython>=3.1.46
+griffe>=1.15.0
+hpack>=4.1.0
+hyperframe>=6.1.0
+humanfriendly>=10.0
+identify>=2.6.16
+imageio>=2.37.2
+ipython-pygments-lexers>=1.1.1
+jedi>=0.19.2
+jiter>=0.11.1
+jmespath>=1.0.1
+joblib>=1.5.3
+jq>=1.11.0
+kiwisolver>=1.4.9
+matplotlib-inline>=0.2.1
+mdurl>=0.1.2
+mpire>=2.10.2
+mpmath>=1.3.0
+multiprocess>=0.70.18
+narwhals>=2.15.0
+networkx>=3.6.1
+ninja>=1.13.0
+nodeenv>=1.10.0
+numba>=0.61.0
+oauthlib>=3.3.1
+overrides>=7.7.0
+oxylabs>=2.0.0
+pandocfilters>=1.5.1
+parso>=0.8.5
+pluggy>=1.6.0
+pure-eval>=0.2.3
+pybase64>=1.4.3
+pycparser>=2.23
+pydispatcher>=2.0.7
+pyee>=13.0.0
+pypandoc>=1.16.2
+pypika>=0.50.0
+pyreadline3>=3.5.4
+python-json-logger>=4.0.0
+pytokens>=0.3.0
+pywin32>=311
+pywinpty>=3.0.2
+pyzmq>=27.1.0
+referencing>=0.37.0
+rfc3339-validator>=0.1.4
+rfc3986-validator>=0.1.1
+rfc3987-syntax>=1.1.0
+rpds-py>=0.30.0
+six>=1.17.0
+smmap>=5.0.2
+sortedcontainers>=2.4.0
+soupsieve>=2.8.1
+stack-data>=0.6.3
+sympy>=1.14.0
+tenacity>=9.1.2
+terminado>=0.18.1
+threadpoolctl>=3.6.0
+tinycss2>=1.4.0
+tornado>=6.5.4
+tqdm>=4.67.1
+traitlets>=5.14.3
+ty>=0.0.12
+uri-template>=1.3.0
+uritemplate>=4.2.0
+uuid-utils>=0.13.0
+uuid6>=2025.0.1
+vectorize-client>=0.4.0
+virtualenv>=20.36.1
+wcwidth>=0.2.14
+webcolors>=25.10.0
+webencodings>=0.5.1
+wrapt>=1.17.3
+wsproto>=1.3.2
+lazy-loader>=0.4
+asttokens>=3.0.1
